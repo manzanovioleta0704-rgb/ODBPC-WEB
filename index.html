@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Our Daily Bread Presbyterian Church | Dayap, Sabang, Bagong Silang, Looc</title>
+<meta name="description" content="Our Daily Bread Presbyterian Church: one church family in four communities (Dayap, Sabang, Bagong Silang, Looc). Find ministries, schedules, history, leaders and locations.">
+<meta property="og:title" content="Our Daily Bread Presbyterian Church">
+<meta property="og:description" content="One church family, four communities. Find our ministries, schedules and locations.">
+<meta property="og:type" content="website">
+<style>
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--green:#174b32;--green2:#286443;--sage:#e8efe5;--yellow:#f5d34f;--cream:#fbfaf4;--ink:#183326;--muted:#68766b;--line:#e4e8df}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,Arial,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#fffdf8ee;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{max-width:1180px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--green);font-size:19px}.logo{width:43px;height:43px;border-radius:14px;background:var(--sage);display:grid;place-items:center;font-size:25px}
+nav{display:flex;gap:8px;flex-wrap:wrap}nav button{border:0;background:transparent;color:var(--ink);padding:10px 13px;border-radius:20px;cursor:pointer;font-weight:650}nav button:hover,nav button.active{background:var(--sage);color:var(--green)}
+main{max-width:1180px;margin:auto;padding:26px 22px 70px}
+.hero{min-height:300px;border-radius:28px;padding:55px 6%;display:flex;align-items:center;background:linear-gradient(110deg,#f7f6e9 0%,#f7f6e9ee 48%,#dce8d9 100%);position:relative;overflow:hidden}
+.hero:after{content:"✝";position:absolute;right:9%;font-size:210px;color:#28644316;top:30px}
+.hero-content{max-width:620px;position:relative;z-index:1}.eyebrow{color:var(--green2);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:12px}
+h1{font-family:Georgia,serif;font-size:clamp(35px,5vw,57px);line-height:1.05;margin:13px 0;color:var(--green)}.hero p{font-size:17px;line-height:1.6;color:#526258;max-width:520px}
+.primary{border:0;background:var(--yellow);color:#213a29;padding:13px 21px;border-radius:24px;font-weight:800;cursor:pointer;margin-top:8px}.primary:hover{filter:brightness(.96);transform:translateY(-1px)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:42px 0 18px}.section-head h2{font: bold 30px Georgia,serif;color:var(--green);margin:0}.section-head p{color:var(--muted);margin:5px 0 0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.branch{background:white;border:1px solid var(--line);border-radius:20px;padding:22px 18px;text-align:center;box-shadow:0 7px 22px #173d2710;cursor:pointer;transition:.2s}
+.branch:hover{transform:translateY(-4px);border-color:#b7c8b6}.branch .symbol{font-size:37px;margin-bottom:8px}.branch h3{font: bold 18px Georgia,serif;margin:4px 0;color:var(--green)}.branch p{font-size:12px;color:var(--muted);margin:7px 0 15px}.branch button{border:1px solid #9eaf9e;background:white;border-radius:22px;padding:9px 17px;color:var(--green);font-weight:750;cursor:pointer}
+.panel{margin-top:0;background:#fff;border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:0 10px 30px #173d270c}@keyframes appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.panel-top{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;flex-wrap:wrap}.panel h2{font: bold 30px Georgia,serif;color:var(--green);margin:0}.panel-sub{color:var(--muted);margin:7px 0 0}.close{border:1px solid var(--line);background:#fff;border-radius:20px;padding:9px 14px;cursor:pointer}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0 18px}.tab{border:0;background:#f0f3ed;padding:10px 15px;border-radius:20px;color:var(--green);font-weight:750;cursor:pointer}.tab.active{background:var(--green);color:#fff}
+.day-group{margin:20px 0}.day-title{font-weight:850;color:var(--green);font-size:14px;text-transform:uppercase;letter-spacing:1.3px;border-bottom:1px solid var(--line);padding-bottom:9px}
+.ministry-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+.ministry{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}.ministry-toggle{width:100%;border:0;background:#fbfcf8;display:flex;align-items:center;justify-content:space-between;text-align:left;padding:16px;cursor:pointer;color:var(--ink);font-weight:800;font-size:15px}.ministry-toggle:hover{background:var(--sage)}.ministry-toggle span:last-child{color:var(--green);font-size:20px}
+.details{display:none;padding:0 16px 16px;color:#5e6b61;font-size:14px;line-height:1.55}.ministry.open .details{display:block}.time{display:inline-block;margin-top:8px;background:#fff5c9;color:#5b4b12;padding:6px 11px;border-radius:15px;font-weight:800}
+.info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}.info{background:#f8faf5;border-radius:15px;padding:17px}.info strong{display:block;color:var(--green);margin-bottom:6px}.info p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
+.note{font-size:13px;color:#7a6a31;background:#fff9df;padding:12px 14px;border-radius:12px;margin-top:18px}
+.leader{display:flex;align-items:center;gap:14px;background:#f8faf5;border-radius:15px;padding:15px}.avatar{width:52px;height:52px;border-radius:50%;background:var(--sage);display:grid;place-items:center;font-size:24px;flex:none}.leader strong{display:block;color:var(--green)}.leader span{color:var(--muted);font-size:13px}
+.mapbox{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,#e8efe5,#f7f6e9);padding:34px 20px;text-align:center}.mapbox .pin{font-size:44px}.mapbox h3{font:bold 20px Georgia,serif;color:var(--green);margin:8px 0}.mapbox p{color:var(--muted);margin:4px 0 14px;font-size:14px}.mapbox a{display:inline-block;text-decoration:none;margin:4px}.mapbox .alt{border:1px solid #9eaf9e;background:#fff;color:var(--green);padding:13px 21px;border-radius:24px;font-weight:800}.tbd{color:#a08a2e!important;font-style:italic}
+.view{display:none}.view.active{display:block;animation:appear .35s ease}.view.leaving{display:block;opacity:0;transform:translateY(-8px);transition:opacity .22s ease,transform .22s ease;animation:none}
+.back{border:0;background:transparent;color:var(--green);font-weight:800;cursor:pointer;padding:8px 0;margin-bottom:14px;font-size:14px}.back:hover{text-decoration:underline}
+.about-text{max-width:720px;color:#46564b;line-height:1.75;font-size:16px;margin:0 0 6px}.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}.about-grid .info{background:#fff;border:1px solid var(--line);padding:22px}.about-grid .ico{font-size:30px;margin-bottom:8px}
+@media(prefers-reduced-motion:reduce){.view.active{animation:none}.view.leaving{transition:none}html{scroll-behavior:auto}}
+@media(max-width:850px){.about-grid{grid-template-columns:1fr}}
+footer{background:var(--green);color:#edf4ec;padding:30px 22px;text-align:center}footer p{margin:7px;color:#d3e2d5;font-size:13px}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.ministry-list{grid-template-columns:1fr}}
+@media(max-width:560px){.nav{align-items:flex-start;flex-direction:column}.hero{padding:38px 25px}.hero:after{right:-35px;opacity:.5}.grid{grid-template-columns:1fr 1fr;gap:10px}.branch{padding:17px 9px}.branch h3{font-size:15px}.section-head{align-items:flex-start;flex-direction:column}.panel{padding:18px}.info-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+ <div class="brand" style="cursor:pointer" onclick="go('home')"><div class="logo">✝</div><div>OUR DAILY BREAD<br><span style="font-weight:550;font-size:13px">Presbyterian Church</span></div></div>
+ <nav><button class="active" onclick="go('home')">Home</button><button onclick="go('churches')">Our Churches</button><button onclick="go('about')">About Us</button></nav>
+</div></header>
+<main>
+<div class="view" id="view-home">
+<section class="hero">
+ <div class="hero-content"><div class="eyebrow">One church family • Four communities</div><h1>Growing together in faith.</h1><p>A church family in Christ, sharing His love, worshiping together, and serving our communities.</p><button class="primary" onclick="go('churches')">Discover Our Churches　→</button></div>
+</section>
+<section id="about" style="margin-top:42px"><div class="section-head"><div><h2>About Us</h2><p>One church family, serving in different communities.</p></div></div>
+ <p class="about-text">Our Daily Bread Presbyterian Church is a family of believers in Christ who gather to worship, pray, learn God’s Word, and serve. Though we meet in four different communities, we are one church sharing the same faith, hope, and love.</p>
+ <div class="about-grid"><div class="info"><div class="ico">📖</div><strong>Faith</strong><p>Growing in God’s Word together.</p></div><div class="info"><div class="ico">🤝</div><strong>Fellowship</strong><p>One family across four communities.</p></div><div class="info"><div class="ico">🕊️</div><strong>Service</strong><p>Sharing Christ’s love with our neighbors.</p></div></div>
+ <div style="text-align:center;margin-top:30px"><button class="primary" onclick="go('churches')">Discover Our Churches　→</button></div></section>
+</div>
+<div class="view" id="view-churches">
+<section id="branches"><div class="section-head"><div><h2>Our Church Branches</h2><p>Select a branch to explore its ministries and schedules.</p></div></div>
+ <div class="grid">
+  <div class="branch" onclick="openBranch('dayap')"><div class="symbol">⛪</div><h3>ODBPC Dayap</h3><p>Our Daily Bread Presbyterian Church</p><button>View Details →</button></div>
+  <div class="branch" onclick="openBranch('sabang')"><div class="symbol">⛪</div><h3>ODBPC Sabang</h3><p>Our Daily Bread Presbyterian Church</p><button>View Details →</button></div>
+  <div class="branch" onclick="openBranch('bagong')"><div class="symbol">⛪</div><h3>ODBPC Bagong Silang</h3><p>Our Daily Bread Presbyterian Church</p><button>View Details →</button></div>
+  <div class="branch" onclick="openBranch('looc')"><div class="symbol">⛪</div><h3>ODBPC Looc</h3><p>Our Daily Bread Presbyterian Church</p><button>View Details →</button></div>
+ </div>
+</section>
+</div>
+<section class="panel view" id="view-branch"><button class="back" onclick="go('churches')">← All Churches</button>
+ <div class="panel-top"><div><div class="eyebrow">Our church branch</div><h2 id="branchName">Branch</h2><p class="panel-sub">Choose a section below. Tap a ministry to see its details.</p></div></div>
+ <div class="tabs">
+  <button class="tab active" data-tab="schedules" onclick="switchTab('schedules',this)">Ministries & Schedules</button>
+  <button class="tab" data-tab="history" onclick="switchTab('history',this)">History</button>
+  <button class="tab" data-tab="people" onclick="switchTab('people',this)">Teachers & Members</button>
+  <button class="tab" data-tab="location" onclick="switchTab('location',this)">Location</button>
+ </div>
+ <div id="tab-schedules"></div>
+ <div id="tab-history" style="display:none"></div>
+ <div id="tab-people" style="display:none"></div>
+ <div id="tab-location" style="display:none"></div>
+ <div class="note" id="branchNote" style="display:none"></div>
+</section>
+</main>
+<footer><strong>Our Daily Bread Presbyterian Church</strong><p>“Give us this day our daily bread.” — Matthew 6:11</p><p>Faith • Hope • Love • Service</p></footer>
+<script>
+const data={
+dayap:{name:"Our Daily Bread Presbyterian Church – Dayap",days:[
+["Wednesday",[["Prayer Meeting","A time for the church family to gather in prayer.","5:00 AM"],["Evening Discipleship Training","A time to study Scripture and grow together in faith.","6:30 PM"]]],
+["Friday",[["Youth Fellowship","A gathering for young people to grow in Christ and fellowship.","6:30 PM"]]],
+["Saturday",[["Prayer Meeting","Prayer before the morning ministry activities.","7:30 AM"],["Children’s Ministry","Bible learning, fellowship, and activities for children.","8:00 AM"]]],
+["Sunday",[["Prayer Meeting","Prayer before the worship service.","8:30 AM"],["Sunday Worship Service","Corporate worship and hearing God's Word.","8:50 AM"]]]
+]},
+sabang:{name:"Our Daily Bread Presbyterian Church – Sabang",days:[
+["Wednesday",[["Prayer Meeting","A time for prayer and intercession.","5:00 AM"]]],
+["Friday",[["Youth Worship Night","Worship and fellowship for the youth.","6:30 PM"]]],
+["Saturday",[["After School","A learning and fellowship activity.","9:00 AM"]]],
+["Sunday",[["Sunday Worship Service","The church family gathers for worship.","10:00 AM"]]]
+]},
+looc:{name:"Our Daily Bread Presbyterian Church – Looc (LOOC)",days:[
+["Friday",[["Youth Fellowship","A gathering for young people to grow in Christ and fellowship.","6:30 PM"]]],
+["Saturday",[["Children’s Worship Service","Worship and Bible-centered activities for children.","8:00 AM"],["After School","A learning and fellowship activity.","8:00 AM"]]],
+["Sunday",[["Discipleship","Bible study and spiritual growth.","9:00 AM"],["Sunday Worship Service","The church family gathers for worship.","2:00 PM"]]]
+]},
+bagong:{name:"Our Daily Bread Presbyterian Church – Bagong Silang",days:[
+["Thursday",[["Children’s Ministry","Children’s ministry gathering. The exact activities can be added by the branch.","9:00 AM"],["Discipleship Training","Thursday afternoon discipleship training.","Time to be confirmed"]]],
+["Sunday",[["Sunday Afternoon Gathering / Service","Sunday afternoon schedule, approximately 2:00 PM. The exact ministry or service name is to be confirmed.","Around 2:00 PM"]]]
+]}
+};
+
+const info={
+dayap:{place:"Dayap, Calamba, Laguna",history:"",leaders:[["Pastor","Name to be added"],["Church Elder","Name to be added"],["Ministry Leader","Name to be added"]]},
+sabang:{place:"Sabang, Calamba, Laguna",history:"",leaders:[["Pastor","Name to be added"],["Church Elder","Name to be added"],["Ministry Leader","Name to be added"]]},
+bagong:{place:"Bagong Silang, Calamba, Laguna",history:"",leaders:[["Pastor","Name to be added"],["Church Elder","Name to be added"],["Ministry Leader","Name to be added"]]},
+looc:{place:"Looc, Calamba, Laguna",history:"",leaders:[["Pastor","Name to be added"],["Church Elder","Name to be added"],["Ministry Leader","Name to be added"]]}
+};
+function esc(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function renderInfo(){const i=info[current];
+document.getElementById('tab-history').innerHTML='<div class="info-grid"><div class="info"><strong>Our History</strong><p'+(i.history?'>'+esc(i.history):' class="tbd">The history of this branch will be added here.')+'</p></div><div class="info"><strong>Our Mission</strong><p>Growing in faith, sharing God\u2019s Word, and serving the community.</p></div></div>';
+document.getElementById('tab-people').innerHTML='<div class="info-grid">'+i.leaders.map(l=>'<div class="leader"><div class="avatar">\ud83d\udc64</div><div><strong>'+esc(l[0])+'</strong><span>'+esc(l[1])+'</span></div></div>').join('')+'</div>';
+const q=encodeURIComponent('Our Daily Bread Presbyterian Church '+i.place);
+document.getElementById('tab-location').innerHTML='<div class="mapbox"><div class="pin">\ud83d\udccd</div><h3>'+esc(data[current].name.split(' \u2013 ')[1])+'</h3><p>'+esc(i.place)+'<br>Exact street address to be added.</p><a class="primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+q+'">Open in Google Maps</a><a class="alt" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination='+q+'">Get Directions</a></div>';}
+let current="dayap";
+function openBranch(id){go(id)}
+function renderSchedules(){const host=document.getElementById('tab-schedules');host.innerHTML='';data[current].days.forEach(([day,items])=>{let group=document.createElement('div');group.className='day-group';let title=document.createElement('div');title.className='day-title';title.textContent=day;group.appendChild(title);let list=document.createElement('div');list.className='ministry-list';items.forEach(([name,desc,time])=>{let card=document.createElement('div');card.className='ministry';let btn=document.createElement('button');btn.className='ministry-toggle';btn.innerHTML='<span>'+name+'</span><span>＋</span>';let detail=document.createElement('div');detail.className='details';detail.innerHTML='<div>'+desc+'</div><div class="time">'+time+'</div>';btn.onclick=()=>{card.classList.toggle('open');btn.lastElementChild.textContent=card.classList.contains('open')?'−':'＋'};card.append(btn,detail);list.appendChild(card)});group.appendChild(list);host.appendChild(group)});let note=document.getElementById('branchNote');note.style.display=current==='bagong'?'block':'none';note.textContent='Note: Bagong Silang Sunday afternoon is approximately 2:00 PM, and the exact schedule details are still to be confirmed.';}
+function switchTab(tab,button){['schedules','history','people','location'].forEach(t=>document.getElementById('tab-'+t).style.display=t===tab?'block':'none');document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));if(button)button.classList.add('active');}
+
+let timer=null;
+function renderBranch(id){current=id;document.getElementById('branchName').textContent=data[id].name;switchTab('schedules',document.querySelector('[data-tab="schedules"]'));renderSchedules();renderInfo();}
+function go(route){if(location.hash==='#'+route)show(route);else location.hash=route;}
+function show(route){
+ const isBranch=!!data[route];let id=isBranch?'view-branch':route==='churches'?'view-churches':'view-home';
+ if(isBranch)renderBranch(route);
+ const next=document.getElementById(id),cur=document.querySelector('.view.active');
+ document.querySelectorAll('nav button').forEach((b,i)=>b.classList.toggle('active',route==='about'?i===2:(route==='home'||!route)?i===0:i===1));
+ const finish=()=>{document.querySelectorAll('.view').forEach(v=>v.classList.remove('active','leaving'));next.classList.add('active');if(route==='about'){document.getElementById('about').scrollIntoView({behavior:'smooth'})}else window.scrollTo(0,0)};
+ clearTimeout(timer);
+ if(cur&&cur!==next){cur.classList.add('leaving');timer=setTimeout(finish,220)}else finish();
+}
+window.addEventListener('hashchange',()=>show(location.hash.slice(1)));
+show(location.hash.slice(1));
+</script>
+</body></html>
